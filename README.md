@@ -1,4 +1,4 @@
-= MetaDescription
+# MetaDescription
 
 Metadescription allows you to easily specify lots of different metadescriptions for all your different pages/controller actions.  This is helpful for SEO
 
