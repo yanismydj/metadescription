@@ -8,10 +8,9 @@ Gem::Specification.new do |s|
   s.name        = "meta_description"
   s.version     = MetaDescription::VERSION
   s.authors     = ["Yan Lhert"]
-  s.email       = ["info@yanlhert.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of MetaDescription."
-  s.description = "TODO: Description of MetaDescription."
+  s.email       = ["yan@tryzen99.com"]
+  s.summary     = "Metadescription management"
+  s.description = "Metadescription allows you to easily specify lots of different metadescriptions for all your different pages/controller actions.  This is helpful for SEO"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
