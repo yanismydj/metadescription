@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    meta_description (0.0.1)
-      rails (~> 4.2.1)
+    meta_description (0.0.2)
+      rails (>= 3.1, < 5.0)
 
 GEM
   remote: https://rubygems.org/
