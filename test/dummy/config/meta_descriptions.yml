@@ -1,0 +1,3 @@
+default: 'this is the default meta description'
+home:
+  index: 'this is the meta description for the home#index page'
