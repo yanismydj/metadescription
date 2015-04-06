@@ -21,6 +21,8 @@ home:
   index: 'this is the meta description for the home#index page'
 your_controller_here:
   your_action_name_here: 'the metadescription for your_controller_here#your_action_name_here'
+other_controller:
+  all: 'this metadescription will be used controllerwide for this controller'
 ```
 
 
