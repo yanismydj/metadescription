@@ -26,8 +26,31 @@ other_controller:
   all: 'this metadescription will be used controllerwide for this controller'
 ```
 
+## Overriding metadescription for an action or a controller
+If you need to set the metadescription for a specific action or controller, just set a `@metadescription` instance variable in your action or in your controller
+IE:
+```ruby
+# action specific
+class HomeController < ApplicationController
+  def index
+    @metadescription = "This page is SEO optimized for whatever it does!"
+  end
+end
+```
+
+```ruby
+# controller specific
+class HomeController < ApplicationController
+  before_filter :set_metadescription
+
+  def index
+  end
+
+  private
+  def set_metadescription
+    @metadescription = "This page is SEO optimized for whatever it does!"
+  end
+end
+```
 
 That's it!
-
-### TODO:
-* controller wide and action specific overrides

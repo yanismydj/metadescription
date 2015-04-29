@@ -5,7 +5,9 @@ module MetaDescription
     end
 
     def description_text
-      if controllers_descriptions.present? && actions_description.present?
+      if @metadescription.present?
+        @metadescription
+      elsif controllers_descriptions.present? && actions_description.present?
         actions_description
       elsif controllers_descriptions.present? && controllers_descriptions['all'].present?
         controllers_descriptions['all']
