@@ -1,4 +1,5 @@
 # MetaDescription
+[![Gem Version](https://badge.fury.io/rb/meta_description.svg)](http://badge.fury.io/rb/meta_description)
 
 Metadescription allows you to easily specify lots of different metadescriptions for all your different pages/controller actions.  This is helpful for SEO
 
@@ -27,3 +28,6 @@ other_controller:
 
 
 That's it!
+
+### TODO:
+* controller wide and action specific overrides
