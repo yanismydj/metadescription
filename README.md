@@ -6,7 +6,7 @@ Metadescription allows you to easily specify lots of different metadescriptions 
 ## Installation instructions
 * Add to your `Gemfile`
 ```ruby
-gem 'metadescription', github: 'yanismydj/metadescription'
+gem 'meta_description', github: 'yanismydj/metadescription'
 ```
 
 * Add the tag to your `application.html.erb` file in your `<head>` section
