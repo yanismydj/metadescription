@@ -14,7 +14,7 @@ gem 'meta_description', github: 'yanismydj/metadescription'
 <%= metadescription %>
 ```
 
-* Create and customize a `meta_descriptions.yml` file in `config/metadescriptions.yml`
+* Create and customize a `meta_descriptions.yml` file in `config/meta_descriptions.yml`
 Example file:
 ```yaml
 default: 'this is the default meta description'
